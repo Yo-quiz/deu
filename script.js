@@ -327,7 +327,7 @@ function checkGameEnd() {
 // Mostrar la imagen de "¡Felicidades!" al finalizar el juego
 function showCongratsImage() {
     const congratsImg = document.createElement("img");
-    congratsImg.src = "img/congrats.png";
+    congratsImg.src = "congrats.png";
     congratsImg.id = "congrats-image";
     congratsImg.style.position = "fixed";
     congratsImg.style.bottom = "0";
